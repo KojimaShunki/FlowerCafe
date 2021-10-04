@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - メニュー | FlowerCafe</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+</head>
+<body>
+  <header>
+    <h1><a href=""><img src="img/logo.png"></a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" style="color: #C32D4D;">Menu</a></li>
+        <li><a href="access.html">Access</a></li>
+        <li><a href="recruit.html">Recruit</a></li>
+      </ul>
+    </nav>
+
+    <div class="humberger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  
+    <div id="humberger-navigation">
+      <ul class="sections">
+        <li><a href="index.html" class="humberger-menu-section">Home</a></li>
+        <li><a href="menu.html" class="humberger-menu-section" style="color: #ef90a4;">Menu</a></li>
+        <li><a href="access.html" class="humberger-menu-section">Access</a></li>
+        <li><a href="recruit.html" class="humberger-menu-section">Recruit</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div id="main-visual" class="page">
+      <picture>
+        <source media="(min-width: 768px)" srcset="img/bg-page-header_pc.jpg">
+        <img class="page" src="img/bg-page-header_sp.jpg" alt>
+      </picture>
+      <div class="text">
+        <h1>Menu</h1>
+        <p>メニュー</p>
+      </div>
+    </div>
+
+    <div id="menu" class="wrapper">
+      <ul>
+        <li>
+          <img src="img/menu-coffee.jpg">
+          <p class="name">コーヒー</p>
+          <p class="price">¥500</p>
+        </li>
+        <li>
+          <img src="img/menu-cafe-latte.jpg">
+          <p class="name">カフェラテ</p>
+          <p class="price">¥500</p>
+        </li>
+        <li>
+          <img src="img/menu-flower-coffee.jpg">
+          <p class="name">フラワーコーヒー</p>
+          <p class="price">¥1000</p>
+        </li>
+        <li>
+          <img src="img/menu-flower-pudding.jpg">
+          <p class="name">フラワープリン</p>
+          <p class="price">¥500</p>
+        </li>
+        <li>
+          <img src="img/menu-flower.jpg">
+          <p class="name">各種フラワー</p>
+          <p class="price">¥500</p>
+        </li>
+        <li></li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="access.html">Access</a></li>
+        <li><a href="recruit.html">Recruit</a></li>
+      </ul>
+    </nav>
+    <p>©FlowerCafe</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
