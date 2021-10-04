@@ -65,6 +65,7 @@ header .humberger-menu {
   cursor: pointer;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  display: none;
 }
 
 header .humberger-menuhover {
@@ -378,6 +379,9 @@ footer p {
   }
   header nav {
     display: none;
+  }
+  header .humberger-menu {
+    display: block;
   }
   #main-visual {
     position: relative;
